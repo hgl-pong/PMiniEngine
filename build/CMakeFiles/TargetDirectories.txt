@@ -1,3 +1,0 @@
-E:/VSProject/PMiniEngine/build/CMakeFiles/PMiniEngine.dir
-E:/VSProject/PMiniEngine/build/CMakeFiles/ALL_BUILD.dir
-E:/VSProject/PMiniEngine/build/CMakeFiles/ZERO_CHECK.dir
