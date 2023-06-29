@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{0E758EB6-2ADA-3A70-9B8C-2B7EBFC8231D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{7334D674-C40D-39BD-9ABE-0985D3A5E186}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32003F33-1E10-3528-A5A4-7854F4556427} = {32003F33-1E10-3528-A5A4-7854F4556427}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PMiniEngine", "PMiniEngine.vcxproj", "{95ECBAAA-5397-31CF-891E-ACE9F6774049}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32003F33-1E10-3528-A5A4-7854F4556427} = {32003F33-1E10-3528-A5A4-7854F4556427}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{32003F33-1E10-3528-A5A4-7854F4556427}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7334D674-C40D-39BD-9ABE-0985D3A5E186}.Debug|x64.ActiveCfg = Debug|x64
+		{7334D674-C40D-39BD-9ABE-0985D3A5E186}.Release|x64.ActiveCfg = Release|x64
+		{95ECBAAA-5397-31CF-891E-ACE9F6774049}.Debug|x64.ActiveCfg = Debug|x64
+		{95ECBAAA-5397-31CF-891E-ACE9F6774049}.Release|x64.ActiveCfg = Release|x64
+		{32003F33-1E10-3528-A5A4-7854F4556427}.Debug|x64.ActiveCfg = Debug|x64
+		{32003F33-1E10-3528-A5A4-7854F4556427}.Debug|x64.Build.0 = Debug|x64
+		{32003F33-1E10-3528-A5A4-7854F4556427}.Release|x64.ActiveCfg = Release|x64
+		{32003F33-1E10-3528-A5A4-7854F4556427}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7334D674-C40D-39BD-9ABE-0985D3A5E186} = {0E758EB6-2ADA-3A70-9B8C-2B7EBFC8231D}
+		{32003F33-1E10-3528-A5A4-7854F4556427} = {0E758EB6-2ADA-3A70-9B8C-2B7EBFC8231D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A5901A-2095-3127-89E1-CD3ADF590218}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
