@@ -1,0 +1,5 @@
+{
+    "docify.commentService.autoTranslationService": "Chinese",
+    "docify.translateService.targetLanguage": "Chinese",
+    "docify.commentService.programmingLanguage": "auto-detect"
+}
