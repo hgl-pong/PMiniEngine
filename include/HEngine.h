@@ -1,1 +1,8 @@
-/*生成一段代码实现字符串的序列化和反序列化
+#ifndef HENGINE_H
+#define HENGINE_H
+class IHModel_Base
+{
+public:
+};
+
+#endif // HENGINE_H
